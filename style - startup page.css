@@ -1,0 +1,56 @@
+* {
+	text-align: right;
+}
+
+
+/*this, combined with header height: 100% is what fixed the picture sizing*/
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+header {
+	background-position: center;
+	background-image: url(header.jpg);
+	background-size: cover;
+	height: 100%; /*this is what stretches the background image to cover the page*/
+}
+
+h1 {
+	color: rgba(255, 255, 255, 0.75);
+	text-align: center;
+	cursor: pointer;
+	font-size: 2rem;
+}
+
+hr {
+	max-width: 150px;
+	border-width: 3px;
+	border-color: #9A86B7;
+	margin-top: 200px;
+	margin-bottom: 30px;
+}
+
+.btn{
+	border-radius: 20px 20px 20px 20px;
+	padding: 7px 20px 7px 20px;
+	color: white;
+	background-color: #9A86B7;
+	border-color: #9A86B7;
+	margin: 0 auto;
+	display: block;
+	transition: all 1s;
+	padding: 1rem 2rem;
+	font-family: "Montserrat", sans-serif;
+}
+
+.btn:hover {
+	background-color:#9A86B7;
+	border-color: #9A86B7;
+	transform: scale(1.1);
+	border-width: 5px;
+}
